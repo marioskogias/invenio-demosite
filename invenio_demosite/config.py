@@ -22,6 +22,7 @@ from invenio.base.config import PACKAGES as _PACKAGES
 PACKAGES = [
     "invenio_demosite.base",
     "invenio_demosite.modules.*",
+    "elasticsearch_view.modules.*"
 ] + _PACKAGES
 
 DEPOSIT_TYPES = [
